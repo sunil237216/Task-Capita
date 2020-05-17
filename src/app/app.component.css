@@ -1,0 +1,89 @@
+
+
+.mainimage{
+
+    height: 237px;
+    width: 100%;
+    margin-top: 20px;
+  
+}
+.serachinut{
+    margin-left: 10px;
+}
+.datatable{
+
+    margin-top:20px
+} 
+
+.inputText{
+    margin-top: 23px;
+    float: left;
+}
+.btnaction{
+    color:white;
+    height: 30px;
+    width: 60px;
+    font-size: 12px;
+}
+tr:nth-child(even) { 
+    background-color: lightgrey; 
+} 
+
+.btnadd{
+    float: left;
+    margin-left: 13px;
+}
+
+.btnupdate{
+margin-left: 10px;
+
+}
+.footerText{
+
+    margin-top: 13px;
+}
+.footer {
+
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    margin-top:20px;
+    background-color: #add8e6;
+    color: white;
+    text-align: center;
+  }
+
+@media only screen and (min-width: 768px) {
+    .section{
+        text-align: center;
+         margin-left: 300px;
+         margin-right: 300px;
+         height: auto;
+        
+     
+     }
+
+
+}
+
+@media only screen and (max-width: 768px) {
+
+    .section{
+        text-align: center;
+         margin-left: 10px;
+         margin-right: 10px;
+       
+    }
+    .btnupdate{
+        margin-top: 10px;
+        
+        
+        }
+        .btnaction{
+         width: 70px;
+            margin:0;
+
+        }
+}
+
+

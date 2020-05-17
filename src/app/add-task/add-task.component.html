@@ -1,0 +1,35 @@
+<h2 mat-dialog-title>Add Task</h2>
+
+<mat-dialog-content [formGroup]="form">
+  
+    <mat-form-field>
+        <input matInput 
+                placeholder="ID"
+               formControlName="id">
+    </mat-form-field>
+    <br>
+
+    <mat-form-field>
+        <input matInput
+                placeholder="Task Description"
+               formControlName="description">
+    </mat-form-field>
+    <br>
+    <mat-form-field>
+        <input  matInput
+                placeholder="task Priority"
+               formControlName="priority">
+    </mat-form-field>
+    <br>
+    <mat-form-field>
+        <input matInput
+                placeholder="Task Status"
+               formControlName="status">
+    </mat-form-field>
+    <br>
+</mat-dialog-content>
+
+<mat-dialog-actions>
+    <button class="btnaction mat-raised-button"(click)="close()">Close</button>
+    <button class=" btnaction mat-raised-button mat-primary"(click)="save()">Save</button>
+</mat-dialog-actions>

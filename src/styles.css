@@ -1,1 +1,29 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+
+/* @media only screen and (max-width: 600px) {
+
+    body {
+      background-color: lightblue;
+    }
+
+    .btnupdate{
+        margin-top: 10px;
+        
+        }
+
+
+        .mainimage{
+
+            height: 237px;
+          
+          
+            margin-top: 20px;
+          
+        }
+
+
+  } */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
